@@ -1,0 +1,23 @@
+@import './styles/nav.css';
+@import './styles/title.css';
+@import './styles/footer.css';
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Nunito',sans-serif;
+}
+
+.container  {
+    max-width: 1600px;
+    margin: 0 auto;
+}
+
+
+.for-book>.container{
+    display: flex;
+
+}
+

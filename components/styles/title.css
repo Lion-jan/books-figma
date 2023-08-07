@@ -1,0 +1,273 @@
+#title{
+    background-color: #f9f9f9;
+    padding-left: 35px;
+    padding-right: 35px;
+}
+
+
+.title-nav-search img {
+    padding: 10px;
+    border-radius: 30px;
+    background-color: #fff;
+}
+
+.title-nav-search {
+    display: flex;
+    align-items: center;
+    padding: 5px 5px 5px 30px;
+    border-radius: 30px;
+    background: #ECF0F3;
+    gap: 250px;
+}
+
+.title-nav-search input {
+    outline: none;
+    border: none;
+    background: #ECF0F3;
+    color: #B2BAC8;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.lang img {
+    padding: 7px;
+    border-radius: 30px;
+    background-color: #d3f8d8;
+}
+
+.lang {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+
+.title-nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 30px;
+    gap: 190px;
+    margin-top: 30px;
+}
+
+
+
+.hero{
+    display: flex   ;
+    justify-content: space-between;
+    background-color: #1aa92b;
+    align-items: top;
+    padding: 60px 50px;
+    border-radius: 24px;
+}
+.hero-text{
+    flex-basis: 40%;
+}
+.hero-text h1{
+    color: var(--white, #FFF);
+font-size: 30px;
+font-style: normal;
+font-weight: 700;
+letter-spacing: 1.5px;
+}
+
+
+.hero-text p{
+    color: #DCE0E5;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+margin-bottom: 50px;
+margin-top: 40px;
+}
+
+.hero-text a{
+    text-decoration: none;
+    color: var(--white, #FFF);
+text-align: center;
+font-size: 16px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+letter-spacing: 0.28px;
+padding: 12px 28px;
+border-radius: 30px;
+background: var(--red-orange, #EB763C);
+}
+
+
+.hero-img {
+    position: relative;
+}
+
+.hero-img :nth-child(2){
+    position: absolute;
+    left: 95px;
+    top: 60px;
+}
+
+.hero-img :nth-child(3){
+    position: absolute;
+    left: 109px;
+    top: 28px;
+}
+
+/* popular-class  */
+
+
+.popular-card h5{
+    color: #434C56;
+font-size: 16px;
+font-style: normal;
+font-weight: 700;
+margin-top: 10px;
+margin-bottom: 5px;
+}
+
+
+.popular-card p{
+    color: #8D96A8;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+}
+
+
+.popular-card h4{
+    color: #434D56;
+font-size: 16px;
+font-style: normal;
+font-weight: 500;
+margin-top: 10px;
+}
+
+.card-image{
+    border-radius: 10px;
+}
+
+.popular-card{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    cursor: pointer;
+}
+
+
+.popular-cards{
+    display: flex   ;
+    justify-content: space-between;
+    padding-bottom: 20px;
+}
+
+.popular-title h4{
+    color: var(--black-font, #303030);
+font-size: 24px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+
+.popular-title a{
+    text-decoration: none;
+    color: #1AA928;
+text-align: right;
+font-size: 18px;
+font-style: normal;
+font-weight: 600;
+padding: 5px;
+}
+
+.popular-title{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    padding-top: 30px;
+    padding-bottom: 15px;
+}
+
+hr{
+    height: 0.1px;
+    border-radius: 20px;
+background: #E0E7EB;
+}
+
+
+.bottom-cards  .card-image img  {
+    width: 70px;
+    height: 70px;
+    padding: 5px;
+    border-radius: 50px;
+    border:  2px solid #27A857;
+}
+
+.bottom-cards{
+    margin-bottom: 32px;
+}
+
+
+
+
+
+
+.bottom-card-image{
+    padding: 13px;
+    background-color: #e4fbe7;
+    border-radius: 11px;
+}
+
+.bottom-card{
+    display: flex;
+    align-items: center;
+    gap: 25px;
+    padding: 10px 80px 10px 10px;
+    background-color: #fff;
+    border-radius: 16px;
+}
+
+
+.bottom-cards h3{
+    color: var(--black-font, #303030);
+font-size: 24px;
+font-style: normal;
+font-weight: 700;
+}
+
+.bottom-cards p{
+    color: #8A97A4;
+font-size: 17px;
+font-style: normal;
+font-weight: 400;
+}
+
+
+.bottom-cards{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+.next-book-text h4{
+    color: var(--gray-1, #333);
+font-size: 16px;
+font-style: normal;
+font-weight: 700;
+}
+
+p{
+    color: #8A97A4;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+}
+
+.date p{
+    color: #8998A9;
+text-align: right;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+}
